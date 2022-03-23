@@ -30,7 +30,7 @@ docker create $(kubectl get deploy -n cpaas-system artifact-controller -o=jsonpa
 kubectl plugin list
 
 # 创建 artifactversion 
-kubectl artifact createVersion --artifact operatorhub-devops-tools-operator  --tag="feat-harbor-high-availability.2203081119" --namespace cpaas-system
+kubectl artifact createVersion --artifact operatorhub-devops-tools-operator  --tag="hotfix-harbor-high-avail-config.2203231625" --namespace cpaas-system
 ```
 
 
@@ -38,8 +38,12 @@ kubectl artifact createVersion --artifact operatorhub-devops-tools-operator  --t
 ## 3. 代理
 
 ```
+# 公司代理
 export http_proxy=http://192.168.156.66:7890
 export https_proxy=http://192.168.156.66:7890
+
+export http_proxy=http://192.168.25.117:8118 
+export https_proxy=http://192.168.25.117:8118
 
 export http_proxy=
 export https_proxy=

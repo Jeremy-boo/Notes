@@ -9,7 +9,7 @@
 **安装operator，请运行：**
 
 ```shell
-mkdir jaeger-operaotr && cd jaeger-operator
+mkdir jaeger-operator && cd jaeger-operator
 
 wget https://github.com/jaegertracing/jaeger-operator/releases/download/v1.29.1/jaeger-operator.yaml
 

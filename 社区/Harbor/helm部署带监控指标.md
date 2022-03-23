@@ -44,29 +44,132 @@ expose:
         nodePort: 30005
       notary:
         nodePort: 30006
-externalURL: http://192.168.136.71:30004
+externalURL: http://192.168.140.74:30004
+nginx:
+  image:
+    tag: v2.5.0-dev
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 500m
+    limits:
+      memory: 512Mi
+      cpu: 1000m
+portal:
+  image:
+    tag: v2.5.0-dev
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 500m
+    limits:
+      memory: 512Mi
+      cpu: 1000m
+core:
+  image:
+    tag: v2.5.0-dev
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 500m
+    limits:
+      memory: 2048Mi
+      cpu: 1000m
+jobservice:
+  image:
+    tag: v2.5.0-dev
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 500m
+    limits:
+      memory: 512Mi
+      cpu: 1000m
+registry:
+  controller:
+    image:
+      tag: v2.5.0-dev
+  registry:
+    image:
+      tag: v2.5.0-dev
+    resources:
+      requests:
+        memory: 256Mi
+        cpu: 500m
+      limits:
+        memory: 2048Mi
+        cpu: 1000m
+chartmuseum:
+  image:
+    tag: v2.5.0-dev
+trivy:
+  image:
+    tag: v2.5.0-dev
+notary:
+  server:
+    image:
+      tag: v2.5.0-dev
+    resources:
+    requests:
+      memory: 256Mi
+      cpu: 500m
+    limits:
+      memory: 512Mi
+      cpu: 1000m
+  signer:
+    image:
+      tag: v2.5.0-dev
+database:
+  internal:
+    image:
+      tag: v2.5.0-dev
+    resources:
+      requests:
+        memory: 256Mi
+        cpu: 500m
+      limits:
+        memory: 4096Mi
+        cpu: 2000m
+redis:
+  internal:
+    image:
+      tag: v2.5.0-dev
+    resources:
+      requests:
+        memory: 256Mi
+        cpu: 500m
+      limits:
+        memory: 512Mi
+        cpu: 1000m
+exporter:
+  image:
+    tag: v2.5.0-dev
 persistence:
   persistentVolumeClaim:
     registry:
-      existingClaim: 
+      existingClaim:
       storageClass: "managed-nfs-storage"
       subPath: "registry"
     chartmuseum:
-      existingClaim: 
+      existingClaim:
       storageClass: "managed-nfs-storage"
       subPath: "chartmuseum"
     jobservice:
-      existingClaim: 
+      existingClaim:
       storageClass: "managed-nfs-storage"
       subPath: "jobservice"
     database:
-      existingClaim: 
+      existingClaim:
       storageClass: "managed-nfs-storage"
       subPath: "database"
     redis:
-      existingClaim: 
+      existingClaim:
       storageClass: "managed-nfs-storage"
       subPath: "redis"
+    trivy:
+      existingClaim:
+      storageClass: "managed-nfs-storage"
+      subPath: "trivy"
 metrics:
   enabled: true
   core:
@@ -82,7 +185,7 @@ metrics:
     path: /metrics
     port: 8001
   serviceMonitor:
-    enabled: true   
+    enabled: true
 
 trace:
   enabled: true
@@ -92,7 +195,7 @@ trace:
     # jaeger supports two modes:
     #   agent mode(uncomment endpoint and uncomment username, password if needed)
     #   collector mode(uncomment agent_host and agent_port)
-    endpoint: http://192.168.136.71:31088/api/traces
+    endpoint: http://10.110.235.43:14268/api/traces
 ```
 
 执行如下命令：
