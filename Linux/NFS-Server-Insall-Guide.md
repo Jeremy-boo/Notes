@@ -29,9 +29,9 @@ Step Two:  创建存储目录, 修改NFS配置文件
 
 ```
 mkdir -p /data/share
-chmod 666 /data/share
+chmod 666 /data/share 
 然后，修改 NFS 配置文件 /etc/exports
-vim /etc/exports
+vi /etc/exports
 /data/share *(rw,sync,insecure,no_subtree_check,no_root_squash)
 ```
 
@@ -90,7 +90,7 @@ Step three: 执行以下命令挂载 nfs 服务器上的共享目录到本机路
 ```
 mkdir /root/nfsmount
 # mount -t nfs $(nfs服务器的IP):/root/nfs_root /root/nfsmount
-mount -t nfs 172.17.216.82:/root/nfs_root /root/nfsmount
+mount -t nfs 172.17.216.82:/data/share /root/nfsmount
 # 写入一个测试文件
 echo "hello nfs server" > /root/nfsmount/test.txt
 ```

@@ -44,47 +44,23 @@ expose:
         nodePort: 30005
       notary:
         nodePort: 30006
-externalURL: http://192.168.140.74:30004
+externalURL: http://192.168.141.67:30004
 nginx:
   image:
     tag: v2.5.0-dev
-  resources:
-    requests:
-      memory: 256Mi
-      cpu: 500m
-    limits:
-      memory: 512Mi
-      cpu: 1000m
+  
 portal:
   image:
     tag: v2.5.0-dev
-  resources:
-    requests:
-      memory: 256Mi
-      cpu: 500m
-    limits:
-      memory: 512Mi
-      cpu: 1000m
+  
 core:
   image:
     tag: v2.5.0-dev
-  resources:
-    requests:
-      memory: 256Mi
-      cpu: 500m
-    limits:
-      memory: 2048Mi
-      cpu: 1000m
+  
 jobservice:
   image:
     tag: v2.5.0-dev
-  resources:
-    requests:
-      memory: 256Mi
-      cpu: 500m
-    limits:
-      memory: 512Mi
-      cpu: 1000m
+  
 registry:
   controller:
     image:
@@ -92,13 +68,7 @@ registry:
   registry:
     image:
       tag: v2.5.0-dev
-    resources:
-      requests:
-        memory: 256Mi
-        cpu: 500m
-      limits:
-        memory: 2048Mi
-        cpu: 1000m
+    
 chartmuseum:
   image:
     tag: v2.5.0-dev
@@ -109,13 +79,6 @@ notary:
   server:
     image:
       tag: v2.5.0-dev
-    resources:
-    requests:
-      memory: 256Mi
-      cpu: 500m
-    limits:
-      memory: 512Mi
-      cpu: 1000m
   signer:
     image:
       tag: v2.5.0-dev
@@ -123,24 +86,10 @@ database:
   internal:
     image:
       tag: v2.5.0-dev
-    resources:
-      requests:
-        memory: 256Mi
-        cpu: 500m
-      limits:
-        memory: 4096Mi
-        cpu: 2000m
 redis:
   internal:
     image:
       tag: v2.5.0-dev
-    resources:
-      requests:
-        memory: 256Mi
-        cpu: 500m
-      limits:
-        memory: 512Mi
-        cpu: 1000m
 exporter:
   image:
     tag: v2.5.0-dev

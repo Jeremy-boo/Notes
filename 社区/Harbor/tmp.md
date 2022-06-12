@@ -44,16 +44,20 @@ Harbor数据准备
 ### Harbor 2.5.0 性能测试
 
 ```
-export HARBOR_URL=http://admin:Harbor12345@192.168.140.74:30004
+gitlab-ce token: j9RpsgitzqpwPF6Eecgu
+export HARBOR_URL=http://admin:Harbor12345@192.168.141.67:30004
 
 export HARBOR_SIZE=medium
+
+export HARBOR_REPORT=true
+export HARBOR_VUS=500
 
 # 代理设置
 export http_proxy=http://192.168.25.117:8118
 export https_proxy=http://192.168.25.117:8118
 export no_proxy='192.168.140.74'
 
-nohup ./mage prepare > perf.log 2>&1 &
+nohup ./mage > test.log 2>&1 &
 
 10.110.235.43:14268
 ```
