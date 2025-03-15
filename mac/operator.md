@@ -5,8 +5,3 @@
 ```
 sudo killall -HUP mDNSResponder
 ```
-
-
-
-
-
