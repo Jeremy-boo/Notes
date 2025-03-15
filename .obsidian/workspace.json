@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "47a143ca8e5851dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdf484f857dbd2b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5347af30b875e832",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "社区/Harbor/helm部署带监控指标.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "helm部署带监控指标"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f14e1707c0d451a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fd822ec62a4c8b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b932c4c9235a202",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "5763684a3717345c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "0a4b208c8f17afa0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "b036ce833d9e1d89",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249
+  },
+  "right": {
+    "id": "0a17ed660058af3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e255702633d4dc0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c43525addfffb269",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "newfii.com.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "newfii.com 的反向链接列表"
+            }
+          },
+          {
+            "id": "5686ed9c8102bc45",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "newfii.com.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "newfii.com 的出链列表"
+            }
+          },
+          {
+            "id": "3503b6bd5bd90384",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "9bef50a6ee9e4d10",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "newfii.com.md"
+              },
+              "icon": "lucide-list",
+              "title": "newfii.com 的大纲"
+            }
+          },
+          {
+            "id": "9acbe670ec0266d6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-to-notion:Share to notion": false,
+      "marp:Marp: Open Preview": false
+    }
+  },
+  "active": "5347af30b875e832",
+  "lastOpenFiles": [
+    "社区/Harbor/harbor-community.md",
+    "社区/Harbor/Harbor升级调研.md",
+    "社区/Harbor/harbor高可用部署.md",
+    "社区/Harbor/helm部署带监控指标.md",
+    "Resume/面试准备/基础知识整理.md",
+    "社区/Kubernetes/k8s-guide.md",
+    "AI/key-store.md",
+    "AI/工具.md",
+    "Resume/面试准备/Devops-方法论.md",
+    "Linux/NFS-Server-Insall-Guide.md",
+    "Linux/git.md",
+    "Rehearsal/百度一面.md",
+    "Resume/面试准备/Interview-介绍.md",
+    "Rehearsal/滴滴-弹性研发工程师.md",
+    "Resume/技巧/面试攻略.md",
+    "Resume/面试准备/Golang-八股文.md",
+    "Rehearsal/Paypal 的一面.md",
+    "Rehearsal/云原生准备.md",
+    "Rehearsal/网易一面.md",
+    "Rehearsal/瓴岳科技.md",
+    "Rehearsal/欧科云链面试总结.md",
+    "影视网站.md",
+    "www.btnull.re.md",
+    "www.dianyinggou.com.md",
+    "newfii.com.md",
+    "netflix.mom.md",
+    "Pasted image 20230719223003.png",
+    "Pasted image 20230731233637.png",
+    "Pasted image 20230727232957.png",
+    "Devops/敏捷开发",
+    "plan/算法训练营",
+    "plan",
+    "工作/绩效",
+    "Pasted image 20230219100422.png",
+    "Pasted image 20230410170809.png",
+    "工作/OBS",
+    "Resume/公司",
+    "Resume/技巧",
+    "工作/个人成长",
+    "Resume/数据结构",
+    "工作/制品仓库",
+    "未命名.canvas",
+    "Rehearsal/2023-03-01.canvas"
+  ]
+}

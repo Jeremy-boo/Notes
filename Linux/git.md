@@ -25,15 +25,5 @@ hint: run "git cherry-pick --abort".
 
 
 
-commit 梳理
-
-```
-# head commit
-4337264d05429f25dd92a33a780c8a942716a199
-
-# first commit
-d714b3ea8b1079504761d9657a54a1c1f7c38742
-```
-
 
 
