@@ -1,0 +1,24 @@
+Prometheus的工作流程
+Metric的几种类型？分别是什么？☆
+Prometheus有哪几种服务发现☆
+Prometheus常用函数
+thanos架构☆
+thanos与VictoriaMetrics对比
+thanos sidecar和receive区别☆
+thanos rule组件和prometheus区别
+Prometheus告警从触发到收到通知延迟在哪
+告警抑制怎么做☆
+告警架构高可用怎么做☆
+Pod指标WSS和RSS区别☆
+监控四个黄金指标
+在大规模环境下，如何优化Prometheus性能
+如何实现告警的自动化响应☆
+Prometheus数据压缩和持久化实现原理
+kubectl top输出与Linux free命令不一致原因☆
+用到了哪些exporter，功能是什么
+是否自己开发过exporter☆
+target down的情况如何进行故障排除？
+Exporter 停止工作，如何监控？
+Prometheus的拉取模式与zabbix推送模式有何区别？各有什么优缺点？
+Prometheus operator怎么添加targets和告警规则
+k8s集群外exporter怎么使用Prometheus监控
